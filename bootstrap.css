@@ -1,0 +1,140 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+body{
+    font-family: "montserrat",sans-serif;
+}
+h1{
+    font-family: "montserrat",sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.btn{
+    padding: 4%;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: bold;
+}
+.nav-item{
+    padding-left:15px;
+    padding-right:15px;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navlink{
+    font-family: "ubuntu-thin",sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color:#fff
+}
+.downloaded-button{
+    margin: 5px 10px 5px 10px;
+}
+.iphone{
+    width: 20%;
+    transform:rotate(25deg);
+    position:absolute;
+   
+
+
+}
+#features{
+    
+    background-color: #fff;
+    padding: 10% 18%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin:5px 30px 0px 50px;
+    position: relative;
+}
+.features-box{
+    text-align: center;
+}
+p{
+    font-family:sans-serif ;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #8f8f8f;
+}
+.icon{
+    margin-bottom: 1rem;
+}
+#testimonials{
+   
+    text-align: center;
+    background-color: #e56d5d;
+    color:#fff;
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.dog-image{
+    width: 20%;
+    border-radius: 100%;
+    margin:20px;
+}
+#press{
+    background-color: #de6d5f;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width:20%;
+    padding:0px 3% 0px 3%;
+}  
+.carousel-item{
+    padding :10% 18%;
+
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.card{
+    margin: 40px;
+}
+@media (max-width:1028px){
+    .iphone{
+        position: static;
+        height:400px;
+        width:300px;
+        transform: none;
+        margin:20px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding:100px 0px 100px 0px;
+}
+h3{
+    color: #fff;
+    text-size-adjust: 2.5rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.downloaded-buttons{
+    padding: 0px 25px 0px 25px;
+    margin: 0px 15px 0px 15px;
+
+}
+#footer{
+    text-align: center;
+    margin:70px;
+}
+.social{
+ margin:0px 30px 30px 30px;
+}
